@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/universe2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeats;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+    margin:10px;
+}
+
+.hero-text button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #245883;
+    color: #fff;
+    border: none;
+    border-radius: 2px 2px; 
+}
+
+.hero-text button:hover {
+    background-color: #1064a8;
+    cursor: pointer;
+}

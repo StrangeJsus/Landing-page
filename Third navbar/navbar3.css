@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #575757;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+     text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+a:hover {
+    background-color: #3b3b3b;
+}
+
+li, h2 {
+    float: left;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #4e4e4e;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+h2 {
+    padding: 10px;
+    color: #bcfcf1;
+    cursor: pointer;
+}
